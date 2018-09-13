@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "MaiHauIdentity": {
+    "MaiHau.Identity": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

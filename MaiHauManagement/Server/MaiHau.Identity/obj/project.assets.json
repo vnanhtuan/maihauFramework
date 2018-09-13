@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My projects\\MaiHau\\MaiHauManagement\\Server\\MaiHauIdentity\\MaiHau.Identity.csproj",
+      "projectUniqueName": "D:\\My projects\\MaiHau\\MaiHauManagement\\Server\\MaiHau.Identity\\MaiHau.Identity.csproj",
       "projectName": "MaiHau.Identity",
-      "projectPath": "D:\\My projects\\MaiHau\\MaiHauManagement\\Server\\MaiHauIdentity\\MaiHau.Identity.csproj",
+      "projectPath": "D:\\My projects\\MaiHau\\MaiHauManagement\\Server\\MaiHau.Identity\\MaiHau.Identity.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\My projects\\MaiHau\\MaiHauManagement\\Server\\MaiHauIdentity\\obj\\",
+      "outputPath": "D:\\My projects\\MaiHau\\MaiHauManagement\\Server\\MaiHau.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

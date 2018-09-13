@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MaiHauIdentity.Data;
-using MaiHauIdentity.Data.Models;
+using MaiHau.Identity.Data;
+using MaiHau.Identity.Data.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace MaiHauIdentity
+namespace MaiHau.Identity
 {
     public class Startup
     {

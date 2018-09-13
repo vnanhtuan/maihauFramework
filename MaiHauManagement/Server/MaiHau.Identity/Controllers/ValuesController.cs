@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MaiHauIdentity.Controllers
+namespace MaiHau.Identity.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
