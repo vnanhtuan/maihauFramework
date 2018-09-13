@@ -2,6 +2,53 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "IdentityModel/3.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityServer4/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "3.6.1",
+          "Microsoft.AspNetCore.Authentication": "2.0.3",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.0.3",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.0.3",
+          "Microsoft.AspNetCore.Cors": "2.0.2",
+          "Microsoft.Extensions.Caching.Memory": "2.0.1",
+          "Microsoft.Extensions.Logging": "2.0.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.1",
+          "System.IdentityModel.Tokens.Jwt": "5.2.1",
+          "System.Security.Cryptography.Cng": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.AspNetIdentity/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityServer4": "2.1.1",
+          "Microsoft.AspNetCore.Identity": "2.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -2256,7 +2303,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Logging/5.2.0": {
+      "Microsoft.IdentityModel.Logging/5.2.1": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -2321,10 +2368,10 @@
           "lib/netstandard1.4/Microsoft.IdentityModel.Protocols.WsFederation.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Tokens/5.2.0": {
+      "Microsoft.IdentityModel.Tokens/5.2.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.2.0",
+          "Microsoft.IdentityModel.Logging": "5.2.1",
           "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "10.0.1",
           "System.Collections": "4.3.0",
@@ -3178,10 +3225,10 @@
           }
         }
       },
-      "System.IdentityModel.Tokens.Jwt/5.2.0": {
+      "System.IdentityModel.Tokens.Jwt/5.2.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.2.0",
+          "Microsoft.IdentityModel.Tokens": "5.2.1",
           "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "10.0.1"
         },
@@ -4333,10 +4380,64 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "MaiHau.Server.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/MaiHau.Server.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaiHau.Server.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "IdentityModel/3.6.1": {
+      "sha512": "JvpnyoP49cF16sImPcdM0A7keVGs+mpG7KCnJ3c1zOwsxXexhN/hqkZua6Cr/9KZcVw6/wsRQfEgY3QMsjsQpw==",
+      "type": "package",
+      "path": "identitymodel/3.6.1",
+      "files": [
+        "identitymodel.3.6.1.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net452/IdentityModel.dll",
+        "lib/net452/IdentityModel.xml",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.xml",
+        "lib/netstandard1.4/IdentityModel.dll",
+        "lib/netstandard1.4/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityServer4/2.2.0": {
+      "sha512": "diozvMQnHiZH4EwcG3X1Si/AIq1yN7hLuQ0Dv3lr1uCuUBRYJV2HUEICnFv4ZLWVzQePI0Q1elC8cT7X8PHssg==",
+      "type": "package",
+      "path": "identityserver4/2.2.0",
+      "files": [
+        "identityserver4.2.2.0.nupkg.sha512",
+        "identityserver4.nuspec",
+        "lib/netstandard2.0/IdentityServer4.dll",
+        "lib/netstandard2.0/IdentityServer4.pdb",
+        "lib/netstandard2.0/IdentityServer4.xml"
+      ]
+    },
+    "IdentityServer4.AspNetIdentity/2.1.0": {
+      "sha512": "r1QXwLW11a4+BxTy/2GUFzAYLAulKQhMSDs/fFCai6r1oH0btv6Dw7lvDNyh8wn0oeonMQvxxzJKzLbMqYZcNw==",
+      "type": "package",
+      "path": "identityserver4.aspnetidentity/2.1.0",
+      "files": [
+        "identityserver4.aspnetidentity.2.1.0.nupkg.sha512",
+        "identityserver4.aspnetidentity.nuspec",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.pdb",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.xml"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -6275,10 +6376,10 @@
         "microsoft.extensions.webencoders.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Logging/5.2.0": {
-      "sha512": "OgiaeDGsuTpXrx77a4gyN6Flp4y7jro4La92UtVEEVxnRb+TnRxawVYY3Z5EVme5fSwvE31vo2iNAwI/jBKjPg==",
+    "Microsoft.IdentityModel.Logging/5.2.1": {
+      "sha512": "kbmvhMYu5OZXWN3toFXhrj3bSN7B+ZzNWzAZQ4Ofp5x2srk9ZCYFljETGS5faxzPwGd5+7W4WZlAfOI7QvzhlA==",
       "type": "package",
-      "path": "microsoft.identitymodel.logging/5.2.0",
+      "path": "microsoft.identitymodel.logging/5.2.1",
       "files": [
         "lib/net45/Microsoft.IdentityModel.Logging.dll",
         "lib/net45/Microsoft.IdentityModel.Logging.xml",
@@ -6286,7 +6387,7 @@
         "lib/net451/Microsoft.IdentityModel.Logging.xml",
         "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll",
         "lib/netstandard1.4/Microsoft.IdentityModel.Logging.xml",
-        "microsoft.identitymodel.logging.5.2.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.5.2.1.nupkg.sha512",
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
@@ -6335,10 +6436,10 @@
         "microsoft.identitymodel.protocols.wsfederation.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Tokens/5.2.0": {
-      "sha512": "Uz1Dk5Gw/jgIHEzac9cXhq7pH0Hf5P73vf23hR6QJn0IamLbPG4qoHnGyPMn9qQXc+jDb/j3fWOhvWGrteJXtA==",
+    "Microsoft.IdentityModel.Tokens/5.2.1": {
+      "sha512": "wVWYpXfE6gpkSrIRNo5TDVC7ss6KPTTrmT6x8ysHiZRIMSRAZ8TyHEAmpdATBBPNRmnlevyAs4CK6nPfDpCTqw==",
       "type": "package",
-      "path": "microsoft.identitymodel.tokens/5.2.0",
+      "path": "microsoft.identitymodel.tokens/5.2.1",
       "files": [
         "lib/net45/Microsoft.IdentityModel.Tokens.dll",
         "lib/net45/Microsoft.IdentityModel.Tokens.xml",
@@ -6346,7 +6447,7 @@
         "lib/net451/Microsoft.IdentityModel.Tokens.xml",
         "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
         "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml",
-        "microsoft.identitymodel.tokens.5.2.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.5.2.1.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
@@ -8286,10 +8387,10 @@
         "system.globalization.extensions.nuspec"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/5.2.0": {
-      "sha512": "E8tNMfMWPvlSF5fvmMIVZZHlGuIZzE5uktuR+GN2gFdngh0k6xoZquxfjKC02d0NqfsshNQVTCdSKXD5e9/lpA==",
+    "System.IdentityModel.Tokens.Jwt/5.2.1": {
+      "sha512": "QwALOmIQnwYXO7SZuzHvp+aF9+E8kouJl2JDHe9hyV/Mqzl2KhOwZMlN+mhyIYo5ggHcIVa/LN7E46WD26OEEg==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/5.2.0",
+      "path": "system.identitymodel.tokens.jwt/5.2.1",
       "files": [
         "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
@@ -8297,7 +8398,7 @@
         "lib/net451/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.5.2.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.5.2.1.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -11491,10 +11592,18 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "MaiHau.Server.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../MaiHau.Server.Shared/MaiHau.Server.Shared.csproj",
+      "msbuildProject": "../../MaiHau.Server.Shared/MaiHau.Server.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "IdentityServer4 >= 2.2.0",
+      "IdentityServer4.AspNetIdentity >= 2.1.0",
+      "MaiHau.Server.Shared >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.3",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -11529,7 +11638,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\My projects\\MaiHau\\MaiHauManagement\\MaiHau.Server.Shared\\MaiHau.Server.Shared.csproj": {
+              "projectPath": "D:\\My projects\\MaiHau\\MaiHauManagement\\MaiHau.Server.Shared\\MaiHau.Server.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -11541,6 +11654,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "IdentityServer4": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "IdentityServer4.AspNetIdentity": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

@@ -1,0 +1,14 @@
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\bin\Debug\netstandard2.0\MaiHau.Server.Shared.deps.json
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\bin\Debug\netstandard2.0\MaiHau.Server.Shared.dll
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.csprojAssemblyReference.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.csproj.CoreCompileInputs.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.AssemblyInfoInputs.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.AssemblyInfo.cs
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\bin\Debug\netstandard2.0\MaiHau.Server.Shared.pdb
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.dll
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.pdb
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Strings.ErrorResources.resources
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Server.Shared.csproj.GenerateResource.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\bin\Debug\netstandard2.0\vi\MaiHau.Server.Shared.resources.dll
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\MaiHau.Strings.ErrorResource.vi.resources
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Server.Shared\obj\Debug\netstandard2.0\vi\MaiHau.Server.Shared.resources.dll

@@ -26,3 +26,7 @@ D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\obj\Debug\netcorea
 D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\obj\Debug\netcoreapp2.1\MaiHau.Identity.RazorTargetAssemblyInfo.cache
 D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\obj\Debug\netcoreapp2.1\MaiHau.Identity.dll
 D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\obj\Debug\netcoreapp2.1\MaiHau.Identity.pdb
+D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\bin\Debug\netcoreapp2.1\MaiHau.Server.Shared.dll
+D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\bin\Debug\netcoreapp2.1\MaiHau.Server.Shared.pdb
+D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\obj\Debug\netcoreapp2.1\MaiHau.Identity.csproj.CopyComplete
+D:\My projects\MaiHau\MaiHauManagement\Server\MaiHau.Identity\bin\Debug\netcoreapp2.1\vi\MaiHau.Server.Shared.resources.dll

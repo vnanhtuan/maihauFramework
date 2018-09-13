@@ -1,0 +1,14 @@
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\bin\Debug\netcoreapp2.1\MaiHau.Resource.deps.json
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\bin\Debug\netcoreapp2.1\MaiHau.Resource.runtimeconfig.json
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\bin\Debug\netcoreapp2.1\MaiHau.Resource.runtimeconfig.dev.json
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\bin\Debug\netcoreapp2.1\MaiHau.Resource.dll
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\bin\Debug\netcoreapp2.1\MaiHau.Resource.pdb
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.csprojAssemblyReference.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.csproj.CoreCompileInputs.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.RazorAssemblyInfo.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.RazorAssemblyInfo.cs
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.AssemblyInfoInputs.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.AssemblyInfo.cs
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.RazorTargetAssemblyInfo.cache
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.dll
+D:\My projects\MaiHau\MaiHauManagement\MaiHau.Resource\obj\Debug\netcoreapp2.1\MaiHau.Resource.pdb

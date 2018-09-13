@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MaiHau.Identity.Data.Migrations
 {
     [DbContext(typeof(MaiHauDbContext))]
-    [Migration("20180913142805_Init")]
+    [Migration("20180913143420_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
